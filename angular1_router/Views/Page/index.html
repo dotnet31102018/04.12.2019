@@ -8,10 +8,14 @@
     <script src="../../Scripts/router.config.js"></script>
     <script src="../../Scripts/red.ctrl.js"></script>
     <script src="../../Scripts/blue.ctrl.js"></script>
+    <script src="../../Scripts/go.ctrl.js"></script>
 </head>
 <body>
     Welcome to colors 2:
     <hr>
+    <div ng-controller="goCtrl">
+        <button ng-click="clickme()">GO BLUE </button>
+    </div>
     <a href="#/red">RED</a>
     <a href="#/blue">BLUE</a>
     <br>
